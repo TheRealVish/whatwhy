@@ -8,6 +8,7 @@
 
 import React from 'react';
 import { Text } from 'galio-framework'
+import MyComponent from './AppBar'
 import {
   SafeAreaView,
   StyleSheet,
@@ -26,9 +27,7 @@ import {
 
 const App: () => React$Node = () => {
   return (
-          <View>
-             <Text p muted>Hi, I'm a Galio component</Text>
-          </View>          
+  <MyComponent />       
 
   );
 };
