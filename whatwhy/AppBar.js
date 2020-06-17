@@ -6,7 +6,7 @@ const MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';
 
 const MyComponent = () => (
     <Appbar.Header>
-       <Appbar.Content title="Crossword" />
+       <Appbar.Content title="whatwhyapp" />
     </Appbar.Header>
 );
 
